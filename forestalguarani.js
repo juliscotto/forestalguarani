@@ -187,7 +187,7 @@ function myFunction() {
 				$('.card').removeClass('border-top-0');
 				$('.card').removeClass('border-right-0');
 				$('.par').addClass('border-right-0 border-bottom-0 border-top-0');
-				$('.impar').addClass('border-left-0  border-bottom-0 border-top-0');
+				$('.impar').addClass('border-left-0 border-right-0 border-bottom-0 border-top-0');
 				$('.impar-last').addClass('border-right-0');
             
             
