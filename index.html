@@ -19,17 +19,30 @@
 
 </head>
 <body>
+  <div class="header" id="header">
+    <img id="logotop" src="assets/images/logonombreblanco.png">
 
-  <div id="navbar" class="topnav">
-    <div class="topnav-right">
-      <a class="links" href="productos.html">Productos</a>
-      <a class="links" href="sobrenosotros.html">Sobre Nosotros</a>
-      <a class="links" href="contacto.html">Contacto</a>
-    </div>
+    <a class="links" href="productos.html" onclick="checkResponsive()">Productos</a>
+    <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
+    <a class="links" href="contacto.html" onclick="checkResponsive()">Contacto</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="baricon"></i>
+    </a>
+  </div>
+
+  <!--<div id="navbar" class="topnav">
     <div class="topnav-left">
       <img id="logotop" src="assets/images/logonombreblanco.png">
     </div>
-  </div>
+    <div class="topnav-right">
+      <a class="links" href="productos.html" onclick="checkResponsive()">Productos</a>
+      <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
+      <a class="links" href="contacto.html" onclick="checkResponsive()">Contacto</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>-->
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
     <ol class="carousel-indicators">
@@ -39,7 +52,7 @@
     </ol>
     <div class="carousel-inner text-left">
       <div class="carousel-item active" interval="4000">
-        <img class="d-block w-100" src="assets/images/CasaIvy2.jpg" alt="First slide">
+        <img class="d-block w-300 h-100" src="assets/images/CasaIvy2.jpg" alt="First slide">
         <div class="black-overlay"></div>
         <div class="absolute-div">
           <div class="carousel-caption">
@@ -49,7 +62,7 @@
         </div>
       </div>
       <div class="carousel-item" interval="4000">
-        <img class="d-block w-100" src="assets/images/fabrica.jpg" alt="First slide">
+        <img class="d-block w-300 h-100" src="assets/images/fabrica.jpg" alt="First slide">
         <div class="black-overlay"></div>
         <div class="absolute-div">
           <div class="carousel-caption">
@@ -59,7 +72,7 @@
         </div>
       </div>
       <div class="carousel-item" interval="4000">
-        <img class="d-block w-100" src="assets/images/laburando.jpg" alt="First slide">
+        <img class="d-block w-300 h-100" src="assets/images/laburando.jpg" alt="First slide">
         <div class="black-overlay"></div>
         <div class="absolute-div">
           <div class="carousel-caption">
@@ -87,20 +100,20 @@
         <button type="button" class="productsbutton ">Nuestros Productos</button>
       </div>
     
-    <div class="container">
+    <div class="container ">
       <div class="row no-gutters" >
-        <div class="col-md-4 col-sm-6 col-xl-4 my-4 grow">
+        <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow">
           <div class="card d-block h-100 box-shadow-hover pointer border-left-0 border-bottom-0 border-top-0 rounded-0 ">
             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
             </div>
-            <div class="card-body p-4">
+            <div class="card-body p-4 ">
               <h3 class="h4 text-center"><strong>Produccion de Plantines</strong></h3>
               
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xl-4 my-4 grow">
+        <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow">
           <div class="card d-block h-100 box-shadow-hover pointer border-left-0 border-bottom-0 border-top-0 rounded-0">
             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
             </div>
@@ -111,10 +124,9 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xl-4 my-4 grow">
-          <div class="card d-block h-100 box-shadow-hover pointer border-right-0 border-left-0 border-bottom-0 border-top-0 rounded-0">
+        <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow">
+          <div class="card d-block h-100 box-shadow-hover pointer border-left-0 border-bottom-0 border-top-0 rounded-0">
             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
-              <!--img class="img-fluid w-xs-120p" src="https://raw.githubusercontent.com/solodev/boxes-with-distinct-hover-effect/master/images/lunar-xplorer.png" alt="ship image">-->
             </div>
             <div class="card-body p-4">
               <h3 class="h4 text-center"><strong>Ciudado y Poda</strong></h3>
@@ -255,7 +267,7 @@
           </div>
         </div>
 
-         <div class="col-md-4 col-sm-6 col-xl-4 my-4 grow">
+         <div class="col-md-4 col-sm-6 col-xl-4 my-4 grow last">
           <div class="card d-block h-100 box-shadow-hover pointer border-right-0 border-left-0  border-bottom-0 border-top-0 rounded-0">
             <div class="pt-3 h-75p align-items-center d-flex justify-content-center">
               <!--img class="img-fluid w-xs-120p" src="https://raw.githubusercontent.com/solodev/boxes-with-distinct-hover-effect/master/images/lunar-xplorer.png" alt="ship image">-->
@@ -273,13 +285,13 @@
 
   <div class="ventajas">
     <div class="title">
-      <h3 class="text-left titleinfo"><strong>Ventajas</strong></h3>
+      <h3 class=" titleinfo"><strong>Ventajas</strong></h3>
     </div>
     <div class="subtitle">
       <div class="subtitleinfo">
        <h3><strong>del uso de la madera en la construccion de Viviendas industrializadas</strong></h3>
       </div>
-   
+   </div>
       <div class="ventajaspuntos">
         <div id="ventajasCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
           <ol class="carousel-indicators">
@@ -292,44 +304,44 @@
              <li data-target="#ventajasCarousel" data-slide-to="6"></li>
               <li data-target="#ventajasCarousel" data-slide-to="7"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active text-center ">
+          <div class="carousel-inner carousel-inner-ventajas">
+            <div class="carousel-item carousel-item-ventajas active text-center ">
               <div class="d-flex h-100 align-items-center justify-content-center">
-                <p class="ventajastext">Estas viviendas tienen poco peso, lo que se traduce en tener cimentaciones de bajo costo.</p>
+                <p class="ventajastext ">Estas viviendas tienen poco peso, lo que se traduce en tener cimentaciones de bajo costo.</p>
                 <!--<div class="black-overlay"></div>-->
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">Las cámaras térmicas del sistema constructivo de los muros proporcionan mayor capacidad de aislamiento térmico y acústico</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">Las vetas y texturas de la madera proporcionan mayor belleza y calidez en el diseño</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">La ligereza de la madera permite que su transportación sea fácil y de reducido costo</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">En comparación con los sistemas tradicionales de construcción, el sistema a base de paneles de madera reduce de un 25% a un 35% los costos</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">El sistema constructivo que se propone, permite construir a bajo costo y además se puede adecuar a las condiciones bioclimáticas</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">La rapidez del sistema constructivo con madera permite abatir costos indirectos.</p>
               </div>
             </div>
-            <div class="carousel-item text-center ">
+            <div class="carousel-item text-center carousel-item-ventajas">
               <div class="d-flex h-100 align-items-center justify-content-center">
                 <p class="ventajastext">El sistema permite construir edificios que pueden mutar en su uso y brinda un sin número de terminaciones tanto interna como externa</p>
               </div>
@@ -345,16 +357,16 @@
           </a>
         </div>
       </div>
-    </div>
+    
     <img src="assets/images/casasventajas.png">
   </div>
 
   <div class="sosteniblesection">
     <div class="image-container">
       <img src="assets/images/mundocortado.png">
-      <h1 class="text-left top" ><strong>Construcción</strong></h1>
-      <h1 class="text-left bottom"style="margin-left:150px;"><strong>SOSTENIBLE</strong></h1>
-      <img style="margin-top: -67px;margin-left:530px;width: 1050px;"src="assets/images/flechaarbol3.png">
+      <h1 class="text-left top " ><strong>Construcción</strong></h1>
+      <h1 class="text-left bottom "style="margin-left:150px; "><strong>SOSTENIBLE</strong></h1>
+      
     </div>
 
     <div class="sostenibletexto" >
@@ -372,8 +384,11 @@
         <div style="margin-left: 20px;">
           <span ><strong>La madera es el material más seguro en incendios.</strong> Se quema lentamente garantizando mayor tiempo para evacuaciones. Cuando se quema no se desmorona a diferencia de otros materiales de construcción.</span>
         </div>
+
       </div>
-    </div>    
+      <img class="sostenible-line" src="assets/images/flechaarbol3.png">
+    </div> 
+
   </div>
 
   <footer class="footer">
@@ -381,7 +396,7 @@
       <img src="assets/images/logonombreblanco.png">
     </div>
     <div class="footer-links" >
-      <nav class="footer__top-nav col-1 col-xl-10" >
+      <nav class="footer__top-nav col-0 col-xl-10">
         <div class="row">
           <ul class="footer__top-nav-list col-sm" >
           <li class="" >
@@ -398,14 +413,14 @@
         </div>
       </nav>
     </div>
-     <div class="footer-contact">
+     <div class="footer-contact" >
       <p class="footer-contact-location">Oficina Central:<br>
       Santa Catalina 2755<br>
       Posadas - Misiones - Argentina</p>
       <p class="footer-contact-phonenumber">+54 (3764) 425995</p>
       <p class="footer-contact-email">forestalguaranisa@gmail.com</p>
     </div>
-    <div class="footer-socials">
+    <div class="footer-socials"   >
       <a href="#" class="icons"><i class="fa fa-facebook"></i></a> 
       <a href="#" class="icons"><i class="fa fa-twitter"></i></a> 
       <a href="#" class="icons"><i class="fa fa-instagram"></i></a>

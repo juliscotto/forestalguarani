@@ -135,8 +135,8 @@ navigation */
 
 .titlecontainer{
   display: inline-block;
-  margin-left: 20px;
-  margin-top: 35px;
+  margin-left: 200px;
+  
 }
 
 
@@ -150,17 +150,18 @@ navigation */
 }
 
 .infocontainer{
-  height: 1000px;
+  height: 100%;
   margin:auto; 
   margin-top: 100px;
-  width: 1400px;
+  width: 100%;
+  margin-bottom: 80px;
   
 }
 
 .buttoncontainer{
   display: inline-block;
  
-  padding-right: 100px;
+  margin-right: 200px;
   float: right;
 }
 
@@ -188,7 +189,7 @@ navigation */
 
 .title{
   padding-left: 100px;
-  width: 1000px;
+  width: 100%;
 }
 
 
@@ -206,7 +207,8 @@ navigation */
 
 .subtitle{
   padding-left: 100px;
-  width: 100%; 
+  width: 800px;
+  display: inline-block; 
 }
 
 .ventajas{
@@ -325,8 +327,8 @@ navigation */
 }
 
 .sostenibleinfocontainer{
-  
-  display: inline-block;
+ 
+   height: 365px;
   
 }
 
@@ -348,6 +350,8 @@ navigation */
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 50px;
+
  
 }
 
@@ -387,6 +391,13 @@ navigation */
   width: 500px;
   
   display: inline-block;
+}
+
+.sostenible-line{
+  float: bottom!important;
+  margin-left:10px!important;
+  width: 100%!important;
+
 }
 
 .icons i {
@@ -443,6 +454,7 @@ navigation */
   margin-top: 80px;
   margin-right: 150px;
   float: right;
+  height: 100px;
 }
 
 .footer-contact-phonenumber{
@@ -466,21 +478,905 @@ navigation */
 
 }
 
+.topnav .icon {
+  display: none;
+}
 
+#myCarousel, .carousel-inner, .carousel-item {
+    height: 800px;
+    
+  }
 
+@media screen and (max-width: 1700px) {
+  #ventajasCarousel{
+  
+    width: 700px!important;
+    height: 350px;
+     
+  }
 
+  .ventajastext{
+    margin-right: 30px!important;
+    font-size: 25px!important;
+  }
 
+  
 
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-  .topnav a,.topnav-right, .topnav-left  {
-    float: none;
-    display: block;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+  
+}
+
+@media screen and (max-width: 1600px) {
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+  
+    width: 600px!important;
+    height: 350px;
+     
   }
 
   
 }
+
+
+
+
+@media screen and (max-width: 2000px) {
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+    width: 740px;
+    height: 350px;
+     
+
+  }
+
+  
+}
+
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 1500px) {
+  .ventajaspuntos{
+
+  }
+
+  .title{
+  padding-left: 100px;
+  width: 1000px;
+  }
+
+  .titleinfo{
+    margin-left: -40px;
+    font-size: 220px;
+  }
+  .subtitleinfo{
+    max-width: 600px;
+    display:inline-block;
+  }
+  .subtitleinfo h3{
+    font-size: 55px;
+  }
+
+  .subtitle{
+    padding-left: 100px;
+    width: 700px;
+    display: inline-block;  
+  }
+
+
+
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+    
+    width: 530px!important;
+     height: 350px!important;
+     
+
+  }
+  .carousel-caption{
+    transform: translateY(-50%)!important;;
+    bottom: 0;
+    top: 50%!important;
+  }
+
+  .ventajastext{
+    margin-right: 0px!important;
+    font-size: 25px!important;
+  }
+}
+
+
+@media screen and (max-width: 1330px) {
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+  
+    width: 580px!important;
+    height: 350px;
+     
+  }
+
+  .title{
+  padding-left: 60px;
+  width: 1000px;
+  }
+
+  .titleinfo{
+    margin-left: -40px;
+    font-size: 220px;
+  }
+  .subtitleinfo{
+    max-width: 500px;
+    display:inline-block;
+  }
+  .subtitleinfo h3{
+    font-size: 45px;
+  }
+
+  .subtitle{
+    padding-left: 40px;
+    width: 500px; 
+  }
+
+  .sostenibleinfocontainer{
+    height: 421px;
+  
+  }
+
+  .image-container{
+    margin-top:100px;
+  }
+
+  .titlecontainer{
+    margin-left: 100px;
+    
+  }
+
+  .buttoncontainer{
+    margin-right: 100px;
+  }
+
+  #myCarousel, .carousel-inner, .carousel-item {
+    height: 600px;
+    
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .title{
+    padding-left: 60px;
+    width: 1000px;
+  }
+
+  .titleinfo{
+    margin-left: -40px;
+    font-size: 220px;
+    max-width: 100%!important;
+  }
+  .subtitleinfo{
+    max-width: 100%;
+    display:inline-block;
+  }
+  .subtitleinfo h3{
+    font-size: 45px;
+  }
+
+  .subtitle{
+    padding-left: 40px;
+    width: 100%; 
+  }
+
+  .sostenibleinfocontainer{
+    height: 421px;
+  }
+
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas, .ventajaspuntos{
+    
+    margin: auto;
+    width: 100%!important;
+    height: 400px;
+     
+  }
+
+  .ventajastext{
+    font-size: 30px!important;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .image-container{
+    margin-top: 0;
+    height: 100%;
+    
+    width: 500px;
+    margin: auto;
+
+  }
+  .image-container img{
+    position: bottom;
+    display: block;
+    width: 100%;
+
+  }
+
+  .image-container .top{
+    margin-top: 106px;
+  }
+   .image-container .bottom{
+    
+  }
+
+  .sostenibletexto{
+    display: block;
+    position: relative;
+
+  }
+  .sostenible-line{
+    display: none;
+  }
+  .footer-contact{
+    margin-top: 80px;
+    margin-right: 120px;
+    float: right;
+
+  }
+  .footer-logo, .footer-socials {
+    margin-left: 80px;
+  }
+  .footer-links{
+    margin-left: 280px;
+    
+  }
+  .footer-socials{
+    margin-top: 50px;
+  }
+
+  .carousel-caption{
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 45%;
+  }
+
+   .titleinfo{
+    max-width: 100%!important;
+  }
+
+  .title{
+    
+    width: 100%!important;
+  }
+
+  .titleinfo{
+    margin-left: 0!important;
+    font-size: 200px!important;
+  }
+
+
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 1000px) {
+  #ventajasCarousel{
+    margin: auto!important;
+   
+  }
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+    
+    width: 700px!important;
+    
+     
+
+  }
+
+  .ventajastext{
+    margin-left: 70px!important;
+    margin-right: 70px!important;
+    font-size: 28px!important;
+  }
+
+
+  #ventajasCarousel .carousel-control-prev {
+    margin-left: -100px;
+  }
+
+
+  #ventajasCarousel .carousel-control-next {
+    margin-right: -100px;
+  }
+
+  
+}
+
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 900px) {
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas{
+    width: 600px!important;
+    
+  }
+
+  #ventajasCarousel .carousel-control-prev {
+    margin-left: -80px;
+  }
+
+
+  #ventajasCarousel .carousel-control-next {
+    margin-right: -80px;
+  }
+
+  .title{
+    padding-left: 0!important;
+    width: 100%!important;
+    margin: auto!important;
+    text-align: center!important;
+
+  }
+
+  .titleinfo{
+    padding-left: 0!important;
+    font-size: 180px!important;
+
+  }
+
+
+}
+
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 880px) {
+  .footer-logo, .footer-socials {
+    margin-left: 20px;
+  }
+
+  .footer-links{
+    margin-left: 200px;
+    
+  }
+  .footer-contact{
+    
+    margin-right: 20px;
+    
+
+  }
+
+  
+}
+
+@media screen and (max-width: 800px) {
+  .ventajas{
+    margin-top: 80px;
+  }
+
+  .titlecontainer{
+    margin-left: 20px;
+  }
+
+   .buttoncontainer{
+    margin-right: 20px;
+  }
+  .titleinfo{
+    padding-left: 0!important;
+    font-size: 150px!important;
+
+  }
+
+  #ventajasCarousel .carousel-control-prev {
+    margin-left: -50px;
+  }
+
+
+  #ventajasCarousel .carousel-control-next {
+    margin-right: -50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #ventajasCarousel .carousel-control-prev {
+    margin-left: -25px;
+  }
+
+
+  #ventajasCarousel .carousel-control-next {
+    margin-right: -25px;
+  }
+
+  .footer{
+    height: 600px!important;
+  }
+
+  .footer-contact{
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: block!important;
+    
+    height: 200px!important;
+  }
+
+  .footer-contact-location{
+    display: block!important;
+    width: 100%!important;
+
+
+  }
+
+  .footer-socials{
+     display: block!important;
+    height: 10px!important;
+    float: left;
+  }
+
+  
+}
+
+@media screen and (max-width: 650px) {
+
+  #ventajasCarousel .carousel-control-prev {
+    margin-left: 00px;
+  }
+
+
+  #ventajasCarousel .carousel-control-next {
+    margin-right: 00px;
+  }
+
+  .sostenibletexto{
+    margin-bottom: 100px;
+  }
+
+  #ventajasCarousel, .carousel-item-ventajas, .carousel-inner-ventajas, .ventajaspuntos{
+    
+    margin: auto;
+    width: 100%!important;
+    height: 400px;
+     
+  }
+
+  .ventajastext{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+    font-size: 20px!important;
+  }
+
+  .carousel-caption p{
+    font-size: 19px!important;
+  }
+  .carousel-caption h3{
+    font-size: 54px!important;
+  }
+
+.ventajas{
+    margin-top: 0px;
+  }
+  
+}
+
+  .header img{
+    
+    max-width:200px;
+    padding: 15px 10px ;
+  }
+
+  .header{
+    position: fixed;
+  width:100%;
+  z-index:10;
+  background-color: transparent;
+  display: block;
+  top:0px;
+  transition: top 0.3s;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  height: 90px;
+}
+
+.header:hover{
+
+background-color:white;
+position:fixed;
+
+}
+
+.header img{
+  margin-left:20px;
+  max-width:200px;
+
+
+}
+
+.header a{
+float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+ 
+  font-family: Futura;
+
+}
+
+.header .icon {
+  display: none;
+  color:white;
+}
+
+@media screen and (max-width: 670px) {
+
+  .header.responsive .icon {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 90;
+
+
+
+  }
+  .header.responsive a:not(:first-child)  {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    color:black;
+    background-color: white;
+   
+    z-index: 90;
+
+  }
+
+  .header.responsive a:nth-last-child(2)  {
+    -webkit-box-shadow: 0 5px #9c984d;
+    -moz-box-shadow: 0 5px #9c984d;
+    box-shadow: 0 5px #9c984d;
+    
+
+  }
+
+
+  .header a:not(:first-child) {
+    display: none;
+
+    
+  }
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+
+@media screen and (max-width: 650px) {
+
+
+  .container h3{
+    font-size: 15px;
+  }
+
+    
+
+}
+
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .titlecontainer{
+    margin-left: 20px;
+  }
+
+   .buttoncontainer{
+    margin-right: 20px;
+  }
+  .info1{
+    padding-left: 0!important;
+    font-size: 35px!important;
+
+  }
+
+  .productsbutton{
+  
+  font-weight: bold;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  background-color: #9c984d;
+  float: right;
+  
+   
+  }
+
+
+    
+
+}
+
+@media screen and (max-width: 550px) {
+  .titlecontainer{
+    margin-left: 20px;
+  }
+
+   .buttoncontainer{
+    margin-right: 20px;
+  }
+  .info1{
+    padding-left: 0!important;
+    font-size: 30px!important;
+
+  }
+
+  .productsbutton{
+  
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+
+    background-color: #9c984d;
+    float: right;
+    margin-top: -3px;
+   
+  }
+
+ .titleinfo{
+    padding-left: 0!important;
+    font-size: 120px!important;
+
+  }
+  .subtitleinfo h3{
+    font-size: 37px;
+  }
+
+  .image-container{
+    width: 100%;
+    
+  }
+
+  .image-container img{
+    width: 450px;
+    
+
+  }
+  .image-container .top{
+    margin: auto!important;
+    text-align: center!important;
+  }
+
+  .image-container .bottom{
+    
+    margin: auto!important;
+    text-align: center!important;
+
+  }
+
+  .footer{
+    margin-top:200px;
+  
+  }
+
+  .footer-socials{
+    margin-top: 0px;
+
+  }
+
+  .footer-copyright{
+
+    margin: auto!important;
+    text-align: center!important;
+    margin-top: 20px!important;
+  }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .footer{
+    margin-top:300px;
+  
+  }
+  .titleinfo{
+    padding-left: 0!important;
+    font-size: 100px!important;
+
+  }
+
+  .subtitleinfo h3{
+
+    font-size: 30px;
+  }
+  .image-container img{
+    width: 400px;  
+
+  }
+
+  .info1{
+    padding-left: 0!important;
+    font-size: 27px!important;
+
+  }
+
+  .productsbutton{
+  
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+
+    background-color: #9c984d;
+    float: right;
+    margin-top: -3px;
+   
+  }
+
+  .ventajastext{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+    font-size: 20px!important;
+  }
+
+  .carousel-caption p{
+    font-size: 16px!important;
+  }
+  .carousel-caption h3{
+    font-size: 54px!important;
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+  .image-container img{
+    width: 400px;  
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .titlecontainer{
+    margin-left: 10px;
+  }
+
+  .info1{
+    padding-left: 0!important;
+    font-size: 27px!important;
+
+  }
+
+  .buttoncontainer{
+    margin-right: 10px;
+  }
+
+  .productsbutton{
+  
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+
+    background-color: #9c984d;
+    float: right;
+    margin-top: -3px;
+   
+  }
+  .card-body h3{
+    font-size: 12px!important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .carousel-caption h3{
+    font-size: 45px!important;
+  }
+
+  .buttoncontainer{
+    margin-right: 0px;
+    display: block;
+    float: left;
+    margin-top: -10px;
+  }
+  .titlecontainer{
+
+    display: block;
+  }
+  .image-container img{
+    width: 360px;  
+
+  }
+  .container{
+    margin-top: 50px;
+  }
+  .productsbutton{
+  
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 16px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+    background-color: #9c984d;
+    float: right;
+    margin-top: -15px;
+    margin-left: 10px;
+   
+  }
+  .info1{
+    margin-top: -10px;
+    padding-left: 10px!important;
+    font-size: 27px!important;
+    font-family: ProximaNova;
+    font-weight: bold;
+  }
+
+  .infocontainer{
+    margin-top: 80px;
+  
+}
+
+@media screen and (max-width: 400px) {
+ .image-container img{
+    width: 340px;  
+
+  }
+
+  .footer{
+    margin-top:400px;
+  }
+
+  .titleinfo{
+    padding-left: 0!important;
+    font-size: 90px!important;
+
+  }
+
+  .footer-links{
+
+    width: 100px;
+  
+  }
+  .image-container .top{
+    font-size: 50px;
+  
+  }
+  .image-container .bottom{
+    
+    font-size: 50px;
+
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .image-container img{
+    width: 320px;  
+
+  }
+  .footer{
+    margin-top:500px;
+  }
+}
+  
+
+
+}
+
+
