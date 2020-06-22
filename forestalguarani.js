@@ -118,6 +118,15 @@ function myFunction() {
            
             	$('.last').addClass('col-sm-6');
             	$('.last').removeClass('col-xl-2 col-md-1 col-xl-1 my-1');
+
+            	$('.card').removeClass('border-left-0');
+				$('.card').removeClass('border-bottom-0');
+				$('.card').removeClass('border-top-0');
+				$('.card').removeClass('border-right-0');
+				$('.par').addClass('border-left-0 border-bottom-0 border-top-0');
+				$('.impar').addClass('border-left-0 border-bottom-0 border-top-0');
+				$('.impar-3').addClass('border-right-0');
+				$('.impar-last').addClass('border-right-0');
             
             
         }
@@ -129,6 +138,15 @@ function myFunction() {
             	$('.last').removeClass('col-sm-6');
             	$('.last').removeClass('col-md-2 col-md-1 col-xl-1 my-1 col-1 col-4');
             	$('.last').addClass('col-xl-1 col-xl-5 ');
+
+				$('.card').removeClass('border-left-0');
+				$('.card').removeClass('border-bottom-0');
+				$('.card').removeClass('border-top-0');
+				$('.card').removeClass('border-right-0');
+				$('.par').addClass('border-right-0 border-bottom-0 border-top-0');
+				$('.impar').addClass('border-left-0  border-bottom-0 border-top-0');
+				$('.impar-last').addClass('border-right-0');
+            	
             
             
         }
@@ -139,6 +157,38 @@ function myFunction() {
             	$('.grow').addClass('col-1 col-4 ');
             	$('.last').removeClass('col-sm-6');
             	$('.last').addClass('col-md-2 col-md-1 col-xl-1 my-1');
+
+            	$('.card').removeClass('border-left-0');
+				$('.card').removeClass('border-bottom-0');
+				$('.card').removeClass('border-top-0');
+				$('.card').removeClass('border-right-0');
+				$('.par').addClass('border-left-0 border-bottom-0 border-top-0');
+				$('.impar').addClass('border-left-0 border-bottom-0 border-top-0');
+				$('.impar-3').addClass('border-right-0');
+				$('.impar-last').addClass('border-right-0');
+            
+            
+        }
+
+         if ($window.width() < 430) {
+        	
+        		$('.grow').removeClass('col-md-4 col-sm-6 col-xl-4 my-4');
+        		$('.grow').removeClass('col-md-2 col-md-1 col-xl-1 my-1');
+        		$('.last').removeClass('col-sm-6');
+        		$('.last').removeClass('col-md-2 col-md-1 col-xl-1 my-1');
+        		$('.grow').removeClass('col-1 col-4');
+
+            	$('.grow').addClass('col-6 col-5 ');
+            	$('.last').removeClass('col-6 col-5 ');
+            	$('.last').addClass('col-xl-3 col-xl-5');
+
+            	$('.card').removeClass('border-left-0');
+				$('.card').removeClass('border-bottom-0');
+				$('.card').removeClass('border-top-0');
+				$('.card').removeClass('border-right-0');
+				$('.par').addClass('border-right-0 border-bottom-0 border-top-0');
+				$('.impar').addClass('border-left-0  border-bottom-0 border-top-0');
+				$('.impar-last').addClass('border-right-0');
             
             
         }
