@@ -1354,7 +1354,7 @@ float: right;
     font-size: 17px!important;
   }
 
-  .carousel-indicators{
+#ventajasCarousel .carousel-indicators{
     top: 270px;
   }
   
