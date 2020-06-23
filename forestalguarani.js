@@ -29,6 +29,7 @@ function scrollFunction() {
   if(document.documentElement.scrollTop == 0 && x.className === "header responsive"){
   	document.getElementById("header").style.top = "0px";
   	document.getElementById("baricon").style.color = "black";
+  	document.getElementById("baricon").style.zIndex = "60";
   }
   if(document.documentElement.scrollTop > 740 ) {
     document.getElementById("header").style.top = "0px";
@@ -79,8 +80,9 @@ function myFunction() {
         "-moz-box-shadow": "0 5px #9c984d", 
         "box-shadow": "0 5px #9c984d"
 	})
+	document.getElementById("baricon").style.color = "black";
   
-  } else if(document.documentElement.scrollTop === 0){
+  } else if(document.documentElement.scrollTop === 0 && x.className === "header responsive"){
   	console.log("aca");
   	console.log(document.documentElement.scrollTop);
     x.className = "header";

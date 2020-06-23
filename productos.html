@@ -19,35 +19,37 @@
 
 </head>
 <body>
+  <div class="header" id="header">
+    <img id="logotop" src="assets/images/logonombreblanco.png">
 
-  <div id="navbar" class="topnav">
-    <div class="topnav-right">
-      <a class="links" href="index.html">Inicio</a>
-      <a class="links" href="sobrenosotros.html">Sobre Nosotros</a>
-      <a class="links" href="contacto.html">Contacto</a>
-    </div>
-    <div class="topnav-left">
-      <img id="logotop" src="assets/images/logonombreblanco.png">
-    </div>
+    <a class="links" href="index.html" onclick="checkResponsive()">Inicio</a>
+    <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
+    <a class="links" href="contacto.html" onclick="checkResponsive()">Contacto</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="baricon"></i>
+    </a>
   </div>
 
-  <div class="banner">
-    <img class="d-block w-100" src="assets/images/productos.jpg" alt="First slide">
-    <div  class="black-overlay"></div>
-    <div class="absolute-div">
-      <div class="carousel-caption">
-          <h3 class="text-left">Productos</h3>
+  <div class="banner-inner ">
+    <div class="banner-item " >
+      <div class="banner" style="background-image: url('assets/images/productos.jpg');">
+        
+        <div  class="black-overlay"></div>
+        <div class="absolute-div">
+          <div class="carousel-caption">
+              <h3 class="text-left">Productos</h3>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="infocontainer" >
-    <div class="titlecontainer" >
-      <p class="info1"></p>
-      <div class="products-list"  >
-      <nav class="productos__top-nav  col-xl-8" >
+  <div class="infocontainer " >
+    <div class="titlecontainer " >
+      <p class="info1 "></p>
+      <div class="products-list "  >
+      <nav class="productos__top-nav col-xl-8" >
         <div class="row">
-          <ul class="productos__top-nav-list" >
+          <ul class="productos__top-nav-list " >
             <li class="" >
               <a >Machimbres para piso 1" x 5"</a>
             </li>
@@ -114,10 +116,10 @@
     </div>
     </div>
     
-    <div class="container" >
-      <div class="row no-gutters" >
+    
+      <div class="row no-gutters " >
 
-        <div class="col-md-4 col-sm-6 col-xl-4 my-2 grow">
+        <div class="col-md-4 col-sm-6 col-xl-4 my-2 grow ">
           <div class="card card-plantines d-block h-100 box-shadow-hover pointer border-left-0 border-bottom-0 border-top-0 rounded-0 ">
             <div class="pt-5 h-75p align-items-center d-flex justify-content-center">
             </div>
@@ -182,14 +184,16 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
+     
+   
   </div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+  <div class=viviendas-section>
       <h1 class="carousel-title">
         Casas de madera industrializada
       </h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+      
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -246,7 +250,7 @@
         <img class="d-block w-100" src="assets/images/cherógac.jpg" alt="First slide">
         <div class="black-overlay-carousel"></div>
         <div class="absolute-div">
-          <div class="carousel-caption">
+          <div class="carousel-caption large-caption">
               <h3 class="">Che róga mi - 53,2 m2 (opción 2/3 dormitorios)</h3>
           </div>
         </div>
@@ -282,7 +286,7 @@
         <img class="d-block w-100" src="assets/images/vivisusten.jpg" alt="First slide">
         <div class="black-overlay-carousel"></div>
         <div class="absolute-div">
-          <div class="carousel-caption">
+          <div class="carousel-caption large-caption">
               <h3 class="">Vivienda Sustentable - 30,25 m2 *</h3>
           </div>
         </div>
@@ -298,9 +302,9 @@
       </div>
       <div class="carousel-item" interval="4000">
         <img class="d-block w-100" src="assets/images/progresiva.jpg" alt="First slide">
-        <div class="black-overlay-carousel"></div>
+        <div class="black-overlay-carousel "></div>
         <div class="absolute-div">
-          <div class="carousel-caption">
+          <div class="carousel-caption large-caption">
               <h3 class="">Sustentable Progresiva - 30 + 30 m2</h3>
           </div>
         </div>
@@ -323,7 +327,9 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-    <p class="text-center carousel-para">Modelos son 100% industrializados, saliendo de nuestra fabrica de viviendas listas para ser transportadas y montar, facilitando diferentes tipos de acabados.</p>
+    
+  </div>
+  <p class="text-center carousel-para">Modelos son 100% industrializados, saliendo de nuestra fabrica de viviendas listas para ser transportadas y montar, facilitando diferentes tipos de acabados.</p>
     <p class="text-center carousel-para-note">*Poseen una capacidad de ampliación de dos dormitorios más (+15 m2).</p>
   </div>
   
