@@ -505,7 +505,7 @@ navigation */
 
 
 .viviendas-section{
-	margin-top: 200px;
+	margin-top: 300px;
 }
 
 .carousel-inner{
@@ -628,6 +628,9 @@ a[href^="tel"] {
   	font-size: 50px;
   }
 
+	.viviendas-section{
+		margin-top: 200px;
+	}
   
 }
 
@@ -647,6 +650,9 @@ a[href^="tel"] {
     
 
   }
+  .viviendas-section{
+	margin-top: 100px;
+}
 
 
   
