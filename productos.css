@@ -631,12 +631,14 @@ float: right;
     margin-left: 200px;
     
   }
+  
   .footer-contact{
     
-    margin-right: 100px;
+    margin-right: 20px;
     
 
   }
+
 
   
 }
@@ -753,6 +755,7 @@ float: right;
     float: right;
     display: block;
   }
+}
 
 
 @media screen and (max-width: 645px) {
