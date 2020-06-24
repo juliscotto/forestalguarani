@@ -747,12 +747,12 @@ a[href^="tel"] {
   }
 }
 
-@media screen and (max-width: 364px) {
+@media screen and (max-width: 380px) {
 
   .contact-socials{
     width: 200px;
     
-    margin-left: 20px!important 
+    margin-left: 27px!important 
 
   }
  
