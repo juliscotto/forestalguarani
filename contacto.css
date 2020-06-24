@@ -11,12 +11,13 @@
   src: url(assets/fontfaces/Proxima-Nova-Font.otf);
 }
 
-body {
+html, body{  
+  width: 100%;
   margin: 0;
+  padding: 0;
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* Add a black background color to the top 
 navigation */
 .topnav {
@@ -77,7 +78,7 @@ navigation */
 }
 
 .black-overlay{
-  position: absolute;
+  
   top: 0px;
   left: 0px;
   height: 100%;
@@ -86,7 +87,7 @@ navigation */
 }
 
 .card-black-overlay{
-  position: absolute;
+ 
   top: 0px;
   left: 0px;
   height: 100%;
@@ -95,14 +96,32 @@ navigation */
 }
 
 .banner{
-  position:relative;
-  top:0;
 
+  top:0;
 }
+
+.banner-item{
+  background-size:cover;
+}
+.banner {
+    
+    
+    top:0;
+    
+    width: 100%;
+    height: 550px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 1700px;
+
+     
+    
+  }
+
 
 .absolute-div {
 
-  position: absolute;
+  
   top: 0;
   left: 0;
   right: 0;
@@ -118,9 +137,9 @@ navigation */
 }
 
 .carousel-caption{
-  transform: translateY(-50%);
+  
   bottom: 0;
-  top: 60%;
+  top: 250px;
 }
 
 .footer{
@@ -262,7 +281,7 @@ navigation */
 .form-catainer{
 
   display: inline-block;
-  width: 50%;
+  width:850px;
 }
 
 
@@ -303,7 +322,7 @@ textarea{
   margin-top: 10px;
   overflow:auto; 
   resize:vertical;
-  width: 100%;
+  width: 700px;
   height: 90px;
 
 }
@@ -330,6 +349,7 @@ textarea:focus, input:focus{
 }
 
 #forms-inputs{
+  width: 100%;
   padding-top: 70px;
 }
 
@@ -369,7 +389,8 @@ textarea:focus, input:focus{
   display: inline-block;
   vertical-align: top;
   margin-top: 50px;
-  margin-left: 130px;
+  margin-left: 40px;
+  
 
 }
 
@@ -396,8 +417,363 @@ textarea:focus, input:focus{
 
 }
 
+.header img{
+    
+    max-width:200px;
+    padding: 15px 10px ;
+  }
+
+  .header{
+    position: fixed;
+  width:100%;
+  z-index:50;
+  background-color: transparent;
+  display: block;
+  top:0px;
+  transition: top 0.3s;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  height: 90px;
+}
+
+.header a:hover{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.header img{
+  margin-left:20px;
+  max-width:200px;
+
+
+}
+
+.header a{
+float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+ 
+  font-family: Futura;
+
+}
+
+.header .icon {
+  display: none;
+  color:white;
+}
+
 a[href^="tel"] {
   color: inherit; /* Inherit text color of parent element. */
   text-decoration: none; /* Remove underline. */
   /* Additional css `propery: value;` pairs here */
 }
+@media screen and (max-width: 1390px) {
+
+  .contact-socials {
+    
+    margin-left: 130px;
+    margin-bottom: 130px;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 1130px) {
+
+  .footer-contact{
+    margin-top: 80px;
+    margin-right: 120px;
+    float: right;
+
+  }
+  .footer-logo, .footer-socials {
+    margin-left: 80px;
+  }
+  .footer-links{
+    margin-left: 280px;
+    
+  }
+  .footer-socials{
+    margin-top: 50px;
+  }
+
+
+
+} 
+
+@media screen and (max-width: 943px) {
+
+  .form-catainer{
+    display: inline-block;
+    width:100%;
+    
+  }
+
+  #registerform{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+  }
+
+
+
+  .contact-title{
+    margin-left: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px!important;
+  }
+
+  .contact-detail{
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    color:gray;
+    
+
+  }
+
+
+  input,textarea{
+    
+    width: 100%;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 718px) {
+
+
+
+  .contact-title{
+
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+  }
+
+  .contact-socials{
+    width: 60%;
+    
+    margin-left: 70px!important;
+
+  }
+
+  .fa-map-marker{
+    margin-top: -4px!important;
+  }
+
+  .icon-location{
+    margin-top: 5px;
+  }
+
+ 
+
+
+
+}
+
+@media screen and (max-width: 683px) {
+
+
+
+  input,textarea{
+    
+    width: 100%;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+  #registerform{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 880px) {
+  .footer-logo, .footer-socials {
+    margin-left: 20px;
+  }
+
+  .footer-links{
+    margin-left: 200px;
+    
+  }
+  
+  .footer-contact{
+    
+    margin-right: 20px;
+    
+
+  }
+
+  
+}
+
+@media screen and (max-width: 800px) {
+  .footer{
+    height: 600px!important;
+  }
+
+  .footer-contact{
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: block!important;
+    
+    height: 200px!important;
+  }
+
+  .footer-contact-location{
+    display: block!important;
+    width: 100%!important;
+
+
+  }
+
+  .footer-socials{
+     display: block!important;
+    height: 10px!important;
+    float: left;
+  }
+
+  
+}
+
+@media screen and (max-width: 1410px) {
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+
+  
+
+
+
+
+  .footer-socials{
+    margin-top: 0px;
+
+  }
+
+  .footer-copyright{
+    margin: auto!important;
+    
+    margin-top: 20px!important;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .footer-links{
+
+    width: 100px;
+  
+  }
+ 
+}
+
+@media screen and (max-width: 670px) {
+
+  .header.responsive .icon {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 90;
+
+  }
+.header.responsive a:not(:first-child)  {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    color:black;
+    background-color: white;
+   
+    z-index: 90;
+
+  }
+
+  .header.responsive a:nth-last-child(2)  {
+    -webkit-box-shadow: 0 5px #9c984d;
+    -moz-box-shadow: 0 5px #9c984d;
+    box-shadow: 0 5px #9c984d;
+    
+
+  }
+
+
+  .header a:not(:first-child) {
+    display: none;
+
+    
+  }
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 364px) {
+
+  .contact-socials{
+    width: 200px;
+    
+    margin-left: 20px!important 
+
+  }
+ 
+}
+
+@media screen and (max-width: 340px) {
+
+  .contact-socials a{
+    font-size: 17px!important;
+
+  }
+}
+
+@media screen and (max-width: 434px) {
+
+  .carousel-caption h3{
+
+    font-family: ProximaNovaS;
+    font-size: 55px;
+
+  }
+}
+
+@media screen and (max-height: 1150px) {
+
+ 
+
+}
+
+
+

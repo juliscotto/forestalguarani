@@ -20,24 +20,29 @@
 </head>
 <body>
 
-  <div id="navbar" class="topnav">
-    <div class="topnav-right">
-      <a class="links" href="index.html">Inicio</a>
-      <a class="links" href="productos.html">Productos</a>
-      <a class="links" href="contacto.html">Contacto</a>
-    </div>
-    <div class="topnav-left">
-      
-      <img id="logotop" src="assets/images/logonombreblanco.png" href="index.html">
-    </div>
-  </div>
+  <div class="header" id="header">
+    <img id="logotop" src="assets/images/logonombreblanco.png">
 
-  <div class="banner">
-    <img class="d-block w-100" src="assets/images/fabrica2.jpg" alt="First slide">
-    <div  class="black-overlay"></div>
-    <div class="absolute-div">
-      <div class="carousel-caption">
-          <h3 class="text-left">Contacto</h3>
+    <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
+    <a class="links" href="productos.html" onclick="checkResponsive()">Productos</a>
+    <a class="links" href="index.html" onclick="checkResponsive()">Inicio</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars" id="baricon"></i>
+    </a>
+  </div>
+      
+     
+
+  <div class="banner-inner ">
+    <div class="banner-item " >
+      <div class="banner" style="background-image: url('assets/images/fabrica2.jpg');">
+        <div  class="black-overlay"></div>
+        <div class="absolute-div">
+          <div class="carousel-caption">
+              <h3 class="text-left">Contacto</h3>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -45,7 +50,7 @@
   <div id="contact-div" >
     <h1 class="contact-title">Si tiene alguna consulta no dude en contactarnos.</h1>
     <p class="contact-detail">Responderemos en brevedad</p>
-    <div class="form-catainer" >
+    <div class="form-catainer"  style="background-color: " >
       <form name="contactform" method="post" action="contact-form-handler.php" data-netlify-honeypot="bot-field" id="registerform" netlify="true" data-netlify="true">
       
       <table  id="forms-inputs">
@@ -82,7 +87,7 @@
        <td valign="top">
        </td>
        <td valign="top">
-        <textarea  name="comments" maxlength="1000" cols="25" rows="6" placeholder="ESCRIBA SU MENSAJE" style="resize: none;"></textarea>
+        <textarea  name="comments" maxlength="1000" cols="25"  size="50" placeholder="ESCRIBA SU MENSAJE" style="resize: none;"></textarea>
        </td>
       </tr>
       <tr>
@@ -93,10 +98,10 @@
       </table>
       </form>
     </div>
-    <div class="contact-socials" style="background-color: ;">
+    <div class="contact-socials" style="color:gray ;">
       <a href="tel:+543764425995" class="icons align-items-center d-flex "><i class="fa fa-mobile"></i>+54 (3764) 425995</a> 
       <a href="mailto:forestalguaranisa@gmail.com" class="icons align-items-center d-flex "><i class="fa fa-envelope" style="margin-right: 10px; margin-left: -6px; font-size: 30px;"></i>forestalguaranisa@gmail.com</a> 
-      <a href="http://maps.google.com/?q=Santa Catalina 2755, Posadas, Misiones, Argentina" class="icons align-items-center d-flex "><i class="fa fa-map-marker" style="margin-left: -2px; margin-right: 5px;"></i>Santa Catalina 2755, Posadas, Misiones, Argentina
+      <a href="http://maps.google.com/?q=Santa Catalina 2755, Posadas, Misiones, Argentina" class="icons icon-location align-items-center d-flex "><i class="fa fa-map-marker" style="margin-left: -2px; margin-right: 5px;"></i>Santa Catalina 2755, Posadas, Misiones, Argentina
       </a> 
     </div>
   </div>
@@ -133,7 +138,7 @@
       <p class="footer-contact-location">Oficina Central:<br>
       Santa Catalina 2755<br>
       Posadas - Misiones - Argentina</p>
-      <p class="footer-contact-phonenumber">+54 (3764) 425995</p>
+      <p href="tel:+543764425995" class="footer-contact-phonenumber">+54 (3764) 425995</p>
       <p class="footer-contact-email">forestalguaranisa@gmail.com</p>
     </div>
     <div class="footer-socials">
