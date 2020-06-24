@@ -307,11 +307,15 @@ input, textarea{
   font-size: 13px;
 
 }
-input {
+input, textarea{
   border-radius: 0;
 }
 
 input[type="search"] {
+  -webkit-appearance: none;
+}
+
+textarea[type="search"] {
   -webkit-appearance: none;
 }
 
