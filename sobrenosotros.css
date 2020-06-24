@@ -130,16 +130,15 @@ navigation */
 }
 
 .carousel-caption h3{
-
   font-family: ProximaNovaS;
   font-size: 70px;
 
 }
 
 .carousel-caption{
-  transform: translateY(-50%);
+  
   bottom: 0;
-  top: 48%;
+  top: 200px;
 }
 
 .footer{

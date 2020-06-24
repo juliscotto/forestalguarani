@@ -139,7 +139,7 @@ navigation */
 .carousel-caption{
   
   bottom: 0;
-  top: 250px;
+  top: 200px;
 }
 
 .footer{
@@ -306,6 +306,13 @@ input, textarea{
 
   font-size: 13px;
 
+}
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
 }
 
 input::placeholder, textarea::placeholder{
