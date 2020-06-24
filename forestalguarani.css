@@ -10,6 +10,10 @@
   font-family: ProximaNova;
   src: url(assets/fontfaces/Proxima-Nova-Font.otf);
 }
+@font-face{
+  font-family: Futura;
+  src: url(assets/fontfaces/Futura.ttc);
+}
 
 body {
   margin: 0;
