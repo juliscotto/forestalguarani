@@ -24,7 +24,14 @@
     <img id="logotop" src="assets/images/logonombreblanco.png">
 
     <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
-    <a class="links" href="productos.html" onclick="checkResponsive()">Productos</a>
+    <div class="links dropdown" id="dropdown" onclick="toggle()">
+      <button class="links dropbtn">Productos 
+      </button>
+      <div class="dropdown-content">
+        <a class="productos-link" href="viviendas.html" onclick="checkResponsive()">Viviendas</a>
+        <a class="productos-link" href="productosind.html" onclick="checkResponsive()">Productos industrializados</a>
+      </div>
+    </div> 
     <a class="links" href="index.html" onclick="checkResponsive()">Inicio</a>
     
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -149,6 +156,6 @@
     </div>
   </footer>
 
-  <script src="productos.js"></script>
+  <script src="forestalguarani.js"></script>
 </body>
 </html>

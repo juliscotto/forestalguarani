@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Forestal Guarani</title>
+  <meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="viviendas.css">
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="header" id="header">
+    <img id="logotop" src="assets/images/logonombreblanco.png">
+
+    <a class="links" href="contacto.html" onclick="checkResponsive()">Contacto</a>
+    <a class="links" href="sobrenosotros.html" onclick="checkResponsive()">Sobre Nosotros</a>
+    <a class="links" href="index.html" onclick="checkResponsive()">Inicio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="baricon"></i>
+    </a>
+  </div>
+
+  <div class="banner-inner ">
+    <div class="banner-item " >
+      <div class="banner" style="background-image: url('assets/images/productos.jpg');">
+        
+        <div  class="black-overlay"></div>
+        <div class="absolute-div">
+          <div class="carousel-caption">
+              <h3 class="text-left">Viviendas</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="infocontainer " >
+    
+    
+      <div class="container-viviendas">
+        <h2 class="container-viviendas-h2">Stretched Link in Card</h2>
+        <p class="container-viviendas-p">Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>
+        <div class="cards-container">
+          <div class="row no-gutters" >
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top " src="assets/images/tererec.jpg" alt="Card image" style="width:100%; ">
+                <div class="card-body ">
+                  <h4 class="card-title">Casa Ivy - Modelo “Tereré” - 110 m2</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/ivyrac.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Casa Ivyrá - 78 m2</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/vivienda2c.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Vivienda de 2 plantas - 110 m2</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/cherogac.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Cheroga - 56 m2</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/cherógac.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Che róga mi - 53,2 m2 (opción 2/3 dormitorios)</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/vivienda44.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Vivienda 44 con pérgola y cerco *</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/misionera.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Misionera I - 48.76 m2 *</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/escuelas.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Escuelas</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/vivisusten.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Vivienda Sustentable - 30,25 m2*</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/cabanas.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Cabañas</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/progresiva.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Sustentable Progresiva - 30 + 30 m2</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xl-4 my-4  grow" style="height: 400px;">
+              <div class="card box-shadow-hover " style="width:400px; height: 400px; ">
+                <img class="card-img-top" src="assets/images/vivimd.jpg" alt="Card image" style="width:100%;">
+                <div class="card-body">
+                  <h4 class="card-title">Vivienda MD - 56m2 *</h4><br>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <a href="#" class="btn btn-primary stretched-link green-background">Ver Vivienda</a>
+                </div>
+              </div>
+            </div>
+
+            
+
+           
+
+          </div>
+          
+
+        </div>
+
+      </div>
+     
+    <p class="text-center carousel-para">Modelos son 100% industrializados, saliendo de nuestra fabrica de viviendas listas para ser transportadas y montar, facilitando diferentes tipos de acabados.</p>
+    <p class="text-center carousel-para-note">*Poseen una capacidad de ampliación de dos dormitorios más (+15 m2).</p>
+  </div>
+
+ 
+
+  
+
+  <footer class="footer">
+    <div class="footer-logo"> 
+      <img src="assets/images/logonombreblanco.png">
+    </div>
+    <div class="footer-links" >
+      <nav class="footer__top-nav col-1 col-xl-10" >
+        <div class="row">
+          <ul class="footer__top-nav-list col-sm" >
+          <li class="" >
+            <a href="#">Productos</a>
+          </li>
+          <li class="" >
+            <a href="#">Sobre Nosotros</a>
+          </li>
+          <li class="" >
+            <a href="#">Contacto</a>
+          </li>
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+     <div class="footer-contact">
+      <p class="footer-contact-location">Oficina Central:<br>
+      Santa Catalina 2755<br>
+      Posadas - Misiones - Argentina</p>
+      <p class="footer-contact-phonenumber">+54 (3764) 425995</p>
+      <p class="footer-contact-email">forestalguaranisa@gmail.com</p>
+    </div>
+    <div class="footer-socials">
+      <a href="#" class="icons"><i class="fa fa-facebook"></i></a> 
+      <a href="#" class="icons"><i class="fa fa-twitter"></i></a> 
+      <a href="#" class="icons"><i class="fa fa-instagram"></i></a>
+      <small class="footer-copyright">Copyright &copy; 2020 Forestal Guarani. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="viviendas.js"></script>
+</body>
+</html>
