@@ -394,7 +394,7 @@ float: right;
   position: absolute;
   background-color: #f9f9f9;
   
-  min-width: 160px;
+  min-width: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -403,12 +403,12 @@ float: right;
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 16px 0px;
+  padding: 16px 10px;
   text-decoration: none;
   display: block;
   text-align: left;
   margin-left: 0px!important;
-  padding-left: 0px!important;
+  padding-left: 10px!important;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -731,6 +731,11 @@ a[href^="tel"] {
   .dropdown{
     display: none;
   }
+
+  .dropdown  button{
+    padding: 0px;
+  }
+
 
 
   .header a.icon {

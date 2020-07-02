@@ -2,10 +2,14 @@ window.onscroll = function() {scrollFunction()};
 
 
 
+function toggle(){
+  $( ".dropdown-content" ).toggle();
+}
+
 function scrollFunction() {
   console.log("documentElement "+document.documentElement.scrollTop)
   console.log("body "+document.body.scrollTop )
-  if ( document.documentElement.scrollTop > 0 &&  document.documentElement.scrollTop<487) {
+  if ( document.documentElement.scrollTop > 0 &&  document.documentElement.scrollTop<740) {
     document.getElementById("header").style.top = "-100px";
   }
   var x = document.getElementById("header");
@@ -31,7 +35,7 @@ function scrollFunction() {
     document.getElementById("baricon").style.color = "black";
     document.getElementById("baricon").style.zIndex = "60";
   }
-  if(document.documentElement.scrollTop > 487 ) {
+  if(document.documentElement.scrollTop > 740 ) {
     document.getElementById("header").style.top = "0px";
     document.getElementById("header").style.backgroundColor = "white";
     document.getElementById("logotop").src="assets/images/logonombre.png";
@@ -59,12 +63,22 @@ function checkResponsive() {
   }else {
     x.className = "header";
   }
+  var y = document.getElementById("dropdown");
+  if (y.className === "links dropdown responsive") {
+    y.className = "links dropdown";
+  }else {
+    x.className = "header";
+  }
   
 }
 
 function myFunction() {
 
   var x = document.getElementById("header");
+  var y = document.getElementById("dropdown");
+  if (y.className === "links dropdown") {
+    y.className += " responsive";
+  }
   if (x.className === "header") {
     x.className += " responsive";
     document.getElementById("header").style.top = "0px";
@@ -86,6 +100,7 @@ function myFunction() {
     console.log("aca");
     console.log(document.documentElement.scrollTop);
     x.className = "header";
+    y.className = "links dropdown";
     document.getElementById("header").style.top = "0px";
     document.getElementById("logotop").src="assets/images/logonombreblanco.png";
     document.getElementById("header").style.backgroundColor = "transparent";
@@ -103,6 +118,7 @@ function myFunction() {
   document.getElementById("baricon").style.color = "white";
   }else{
     x.className = "header";
+    y.className = "links dropdown";
     document.getElementById("logotop").src="assets/images/logonombre.png";
     document.getElementById("baricon").style.color = "black";
 

@@ -1066,13 +1066,15 @@ float: right;
   display: block;
   text-align: left;
   margin-left: 0px!important;
-  padding-left: 0px!important;
+  padding-left: 10px!important;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
+
 
 
 
@@ -1119,7 +1121,7 @@ float: right;
   
 
 
-  .header.responsive a:nth-last-child(2)  {
+  .header.responsive div:nth-last-child(2)  {
     -webkit-box-shadow: 0 5px #9c984d;
     -moz-box-shadow: 0 5px #9c984d;
     box-shadow: 0 5px #9c984d;
@@ -1142,6 +1144,10 @@ float: right;
   .header a.icon {
     float: right;
     display: block;
+  }
+
+  .dropdown  button{
+    padding: 0px;
   }
 
 @media screen and (max-width: 650px) {
