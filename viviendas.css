@@ -114,13 +114,15 @@ navigation */
   	width: 100%;
   	height: 471px;
   	background-position: center center;
+    background-size: 1800px ;
   	background-repeat: no-repeat;
   	 
     
   }
 .banner img{
 	background-image: url('assets/images/productos.jpg');
-	height: 471px;
+	height: 400px;
+
 }
 .absolute-div {
 
@@ -930,6 +932,11 @@ a[href^="tel"] {
   .dropdown{
     display: none;
   }
+
+  .dropdown  button{
+    padding: 0px;
+  }
+
 
 
   .header a.icon {

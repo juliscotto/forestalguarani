@@ -840,6 +840,11 @@ a[href^="tel"] {
     display: none;
   }
 
+  .dropdown  button{
+    padding: 0px;
+  }
+
+
 
   .header a.icon {
     float: right;
