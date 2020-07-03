@@ -132,7 +132,7 @@ navigation */
 
 }
 
-.carousel-caption h3{
+.carousel-caption h1{
   font-family: ProximaNovaS;
   font-size: 70px;
 
@@ -460,7 +460,7 @@ navigation */
 
 }
 
-.carousel-caption h3{
+.carousel-caption h1{
 
   font-family: ProximaNovaS;
   font-size: 70px;
@@ -584,10 +584,7 @@ float: right;
 
 
 /* The dropdown container */
-.dropdown {
-  
-  
-}
+
 
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -627,6 +624,12 @@ float: right;
   text-align: left;
   margin-left: 0px!important;
   padding-left: 10px!important;
+ 
+}
+
+.dropbtn {
+  padding-top: 0px!important;
+  
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -678,7 +681,7 @@ a[href^="tel"] {
 
 @media screen and (max-width: 1081px) {
 
-  #myCarousel .carousel-caption h3{
+  #myCarousel .carousel-caption h1{
   	font-size: 60px;
   }
 
@@ -688,7 +691,7 @@ a[href^="tel"] {
 
 @media screen and (max-width: 893px) {
 
-  #myCarousel .carousel-caption h3{
+  #myCarousel .carousel-caption h1{
   	font-size: 50px;
   }
 
@@ -771,7 +774,7 @@ a[href^="tel"] {
 	bottom: 0;
 	top: 55%;
   }
-  #myCarousel .carousel-caption h3{
+  #myCarousel .carousel-caption h1{
   	font-size: 40px;
   }
   .col-md-2{
@@ -869,7 +872,7 @@ a[href^="tel"] {
 
 @media screen and (max-width: 645px) {
 
-  #myCarousel .carousel-caption h3{
+  #myCarousel .carousel-caption h1{
   	font-size: 37px;
   }
 
@@ -959,10 +962,10 @@ a[href^="tel"] {
 		margin-top: 500px;
   
 	}
-	.carousel-caption h3{
+	.carousel-caption h1{
   		font-size: 50px;
   	}
-	#myCarousel .carousel-caption h3{
+	#myCarousel .carousel-caption h1{
   		font-size: 30px;
   	}
 
@@ -982,7 +985,7 @@ a[href^="tel"] {
 }
 
 @media screen and (max-width: 375px) {
-	#myCarousel .carousel-caption h3{
+	#myCarousel .carousel-caption h1{
   		font-size: 24px;
   	}
 

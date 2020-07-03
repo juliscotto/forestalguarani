@@ -411,6 +411,11 @@ float: right;
   padding-left: 10px!important;
 }
 
+.dropbtn {
+  padding-top: 0px!important;
+  
+}
+
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
