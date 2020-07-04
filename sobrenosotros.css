@@ -461,7 +461,7 @@ a[href^="tel"] {
    
   }
   .planos-imgs{
-    margin-top: 0px;
+    margin-top: 550px;
 
     width: 100%;
     margin-bottom: 200px;
@@ -491,6 +491,7 @@ a[href^="tel"] {
 
   .planos-imgs{
     margin: auto;
+    margin-top: 550px;
     display: inline-block;
     width: 100%;
     margin-bottom: 200px;
@@ -533,7 +534,7 @@ a[href^="tel"] {
 
 @media screen and (max-width: 1101px) {
   .planos-imgs{
-    margin-top: 30px;
+    margin-top: 610px;
 
   }
 
@@ -548,11 +549,27 @@ a[href^="tel"] {
 
 @media screen and (max-width: 1025px) {
 
+  .planos-imgs{
+    margin-top: 660px;
+
+  }
+
   .planos-imgs img{
     display: inline-block;
     width: 450px;
 
   }
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+  .planos-imgs{
+    margin-top: 700px;
+
+  }
+
 
 
 }
@@ -583,6 +600,11 @@ a[href^="tel"] {
     
     margin-right: 20px;
     
+
+  }
+
+  .planos-imgs{
+    margin-top: 800px;
 
   }
 
@@ -626,7 +648,7 @@ a[href^="tel"] {
 @media screen and (max-width: 836px) {
   .planos-imgs{
 
-    margin-top:80px;
+    margin-top:800px;
     display: block;
     width: 100%;
 
@@ -664,7 +686,16 @@ a[href^="tel"] {
 
 @media screen and (max-width: 787px) {
 
+  .planos-imgs{
+
+    margin-top:850px;
+  
+   
+
+  }
+
   .planos-imgs img{
+   
     display: block;
     width: 600px;
     margin: auto;
@@ -676,6 +707,13 @@ a[href^="tel"] {
 }
 
 @media screen and (max-width: 670px) {
+  .planos-imgs{
+
+    margin-top:900px;
+  
+   
+
+  }
 
   .header.responsive .icon {
 
@@ -768,9 +806,39 @@ a[href^="tel"] {
 
 }
 
+@media screen and (max-width: 600px) {
+  .planos-imgs{
+    margin-top: 950px;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+  .planos-imgs{
+    margin-top: 1000px;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 566px) {
+  .planos-imgs{
+    margin-top: 1100px;
+
+  }
+
+
+
+}
+
 @media screen and (max-width: 540px) {
   .planos-imgs{
-    margin-top: 150px;
+    
 
   }
 
@@ -791,9 +859,19 @@ a[href^="tel"] {
 
 }
 
+@media screen and (max-width: 522px) {
+  .planos-imgs{
+    margin-top: 1120px;
+
+  }
+
+
+
+}
+
 @media screen and (max-width: 518px) {
   .planos-imgs{
-    margin-top: 100px;
+    margin-top: 1190px;;
 
   }
 
@@ -843,8 +921,7 @@ a[href^="tel"] {
 
 }
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 506px) {
   .footer-links{
 
     width: 100px;
@@ -853,11 +930,17 @@ a[href^="tel"] {
  
 }
 
-@media screen and (max-width: 490px) {
-  .planos-imgs{
-    margin-top: 150px;
 
+@media screen and (max-width: 489px) {
+  .planos-imgs{
+   
+    margin-top: 1270px;
   }
+ 
+}
+
+@media screen and (max-width: 490px) {
+
 
   .planos-imgs img{
     display: block;
@@ -876,10 +959,18 @@ a[href^="tel"] {
 
 }
 
-
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 471px) {
   .planos-imgs{
-    margin-top: 200px;
+   
+    margin-top: 1330px;
+  }
+ 
+}
+
+
+@media screen and (max-width: 466px) {
+  .planos-imgs{
+   margin-top: 1390px;
 
   }
 
@@ -902,7 +993,7 @@ a[href^="tel"] {
 
 @media screen and (max-width: 430px) {
   .planos-imgs{
-    margin-top: 250px;
+    margin-top: 1480px;
 
   }
   .planos-imgs img{
@@ -911,10 +1002,85 @@ a[href^="tel"] {
     margin: auto;
 
   }
+}
+
+
+
+@media screen and (max-width: 495px) {
+  .planos-imgs{
+    margin-top: 1200px;
+
+  }
+
+}
+
+@media screen and (max-width: 484px) {
+  .planos-imgs{
+    margin-top: 1260px;
+
+  }
+
+}
+
+@media screen and (max-width: 473px) {
+  .planos-imgs{
+    margin-top: 1300px;
+
+  }
+
+}
+
+@media screen and (max-width: 467px) {
+  .planos-imgs{
+    margin-top: 1360px;
+
+  }
+
+}
+
+@media screen and (max-width: 454px) {
+  .planos-imgs{
+    margin-top: 1400px;
+
+  }
+
+}
+
+@media screen and (max-width: 428px) {
+  .planos-imgs{
+    margin-top: 1460px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 417px) {
+  .planos-imgs{
+    margin-top: 1250px;
+
+  }
+
+  .infocontainer p{
+    font-size: 16px!important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 399px) {
+  .planos-imgs{
+    margin-top: 1290px;
+  }
+
+}
+
+
 
 @media screen and (max-width: 390px) {
   .planos-imgs{
-    margin-top: 350px;
+    margin-top: 1310px;
 
   }
 
@@ -930,9 +1096,25 @@ a[href^="tel"] {
 
 } 
 
+
+@media screen and (max-width: 380px) {
+  .planos-imgs{
+    margin-top: 1360px;
+  }
+
+}
+
+@media screen and (max-width: 372px) {
+  .planos-imgs{
+    margin-top: 1390px;
+
+  }
+
+
+} 
 @media screen and (max-width: 367px) {
   .planos-imgs{
-    margin-top: 400px;
+    margin-top: 1460px;
 
   }
 
@@ -947,4 +1129,38 @@ a[href^="tel"] {
 
 
 }  
+
+
+@media screen and (max-width: 362px) {
+  .planos-imgs{
+    margin-top: 1500px;
+
+  }
+
+
+
+
+} 
+
+@media screen and (max-width: 349px) {
+  .planos-imgs{
+    margin-top: 1580px;
+
+  }
+
+
+
+
+} 
+
+@media screen and (max-width: 334px) {
+  .planos-imgs{
+    margin-top: 1700px;
+
+  }
+
+
+
+
+} 
 
