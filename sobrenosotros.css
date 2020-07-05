@@ -117,8 +117,9 @@ navigation */
     top:0;
     
     width: 100%;
-    height: 471px;
+    height: 550px;
     background-position: center center;
+    background-size: 1700px;
     background-repeat: no-repeat;
 
      
@@ -153,6 +154,7 @@ navigation */
 }
 
 .footer{
+  margin-top: 200px;
   width: 100%;
   height: 380px;
   background-color: gray;
