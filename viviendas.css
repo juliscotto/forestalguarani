@@ -193,6 +193,7 @@ navigation */
 	margin:auto; 
 	margin-top: 600px;
 	width: 100%;
+  margin-bottom: 1300px!important;
   
 }
 
@@ -499,6 +500,7 @@ navigation */
 .carousel-para-note{
 	margin-top: -10px;
 	font-family: ProximaNova;
+
 }
 
 
@@ -714,7 +716,7 @@ a[href^="tel"] {
   }
 
   .footer{
-    margin-top: 1100px;
+    margin-top: 1500px;
   }
 
 
@@ -732,7 +734,7 @@ a[href^="tel"] {
   }
 
   .footer{
-    margin-top: 2000px;
+    margin-top: 2200px;
   }
  
   .carousel-para{
@@ -754,7 +756,7 @@ a[href^="tel"] {
   }
 
  .footer{
-    margin-top: 4700px;
+    margin-top: 4900px;
   }
  
 
